@@ -24,7 +24,7 @@ $row_tipos = $lista_tipos->fetch_all();
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.php" class="fundo">
+                <a href="index.php">
                     <img src="tiphpnt-master/img/pexels-daniel-nettesheim-1162361.jpg">
                 </a>
             </div>

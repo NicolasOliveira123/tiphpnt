@@ -15,8 +15,7 @@ $numRows = $listaPorDestaque -> num_rows;
     <link rel="stylesheet" href="css/estilo.css">
     <title>Destaques</title>
 </head>
-<body class="fundofixo">
-    <?php include 'menu_publico.php' ?>
+<body>
     <div class="container">
         <!-- mostrar se a consulta retorna vazio -->
         <?php if($numRows == 0) { ?>
@@ -31,7 +30,7 @@ $numRows = $listaPorDestaque -> num_rows;
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
                             <a href="produto_detalhes.php?id_produto=<?php echo $rowPorDestaque['id_produto']?>">
-                                <img src="images/<?php echo $rowPorDestaque['imagem_produto']?>" class="img-responsive img-rounded">
+                                <img src="img/pexels-pixabay-carne-236887.jpg" responsive>
                             </a>
                             <div class="caption text-right">
                                 <h3 class="text-danger">

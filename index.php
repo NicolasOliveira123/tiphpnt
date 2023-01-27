@@ -20,7 +20,19 @@
         <!-- area de destaque-->
         <a name="destaques">&nbsp;</a>
         <?php include 'produtos_destaque.php'; ?>
-        
+
+        <!-- area de detalhes-->
+        <a name="detalhes">&nbsp;</a>
+        <?php include 'produto_detalhes.php'; ?>
+
+        <!-- area de busca-->
+        <a name="busca">&nbsp;</a>
+        <?php include 'produtos_busca.php'; ?>
+
+        <!-- area de pro. tipo-->
+        <a name="produtoPorTipo">&nbsp;</a>
+        <?php include 'produtos_por_tipo.php'; ?>
+
         <!-- area geral de produtos-->
         <a name="produtos">&nbsp;</a>
         <?php include 'produtos_geral.php'; ?>

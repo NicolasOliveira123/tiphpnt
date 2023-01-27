@@ -15,8 +15,7 @@ $numRows = $listaPorGeral -> num_rows;
     <link rel="stylesheet" href="css/estilo.css">
     <title>Geral</title>
 </head>
-<body class="fundofixo">
-    <?php include 'menu_publico.php' ?>
+<body>
     <div class="container">
         <!-- mostrar se a consulta retorna vazio -->
         <?php if($numRows == 0) { ?>
