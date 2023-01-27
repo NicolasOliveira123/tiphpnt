@@ -2,5 +2,11 @@
 @charset "utf8";
 
 .fundofixo{
-    background: url("\churrascaria chuleta quente.jpg");
+    background: url("tiphpnt-master/fonts/pexels-harvey-1790574.jpg");
+}
+
+.fundo{
+    width: auto;
+    justify-content: left;
+    align-items: center;
 }

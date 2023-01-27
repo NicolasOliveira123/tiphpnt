@@ -19,15 +19,15 @@
 
         <!-- area de destaque-->
         <a name="destaques">&nbsp;</a>
-        <?php include 'produtos_destaque'; ?>
+        <?php include 'produtos_destaque.php'; ?>
         
         <!-- area geral de produtos-->
         <a name="produtos">&nbsp;</a>
-        <?php include 'produtos_geral'; ?>
+        <?php include 'produtos_geral.php'; ?>
 
         <!-- rodapé -->
         <footer class="panel-footer" style="background: none;">
-            <?php include "rodape.php"; ?>
+            <?php include 'rodape.php'; ?>
             <a name="contato"></a>
         </footer>
     </main>  
