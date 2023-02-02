@@ -10,6 +10,7 @@ $row_tipos = $lista_tipos->fetch_all();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Menu público</title>
 </head>
 <body>
@@ -25,7 +26,7 @@ $row_tipos = $lista_tipos->fetch_all();
                     <span class="icon-bar"></span>
                 </button>
                 <a href="index.php">
-                    <img src="tiphpnt-master/img/pexels-daniel-nettesheim-1162361.jpg">
+                    <img src="img/pexels-daniel-nettesheim-1162361.jpg" width="100px">
                 </a>
             </div>
             <!-- fecha agrupamento mobile -->

@@ -11,7 +11,7 @@ include "conn/connect.php"
     <link rel="stylesheet" href="css/estilo.css">
     <title>Busca por palavra</title>
 </head>
-<body class="fundofixo">
-    <?php include "menu_publico.php"; ?>
+<body>
+    
 </body>
 </html>

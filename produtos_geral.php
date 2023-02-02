@@ -1,9 +1,6 @@
 <?php 
 include "conn/connect.php";
-$idGeral = $_GET['id_tipo'];
-$listaPorGeral = $conn->query("select * from vw_tbprodutos where id_tipo_produto");
-$rowPorGeral = $listaPorGeral->fetch_assoc();
-$numRows = $listaPorGeral -> num_rows;
+
 ?>
 
 <!DOCTYPE html>

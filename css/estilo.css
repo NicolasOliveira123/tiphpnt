@@ -6,3 +6,23 @@
     -webkit-background-size: cover;
     background-size: cover;
 }
+.h3{
+    background: #f8c2c2;
+    text-align: center;
+}
+.div{
+    display: flex;
+}
+.div-tipo{
+    display: flex;
+    float: right;
+}
+.div-tipo1{
+    float:left;
+
+}
+.img{
+    align-items: center;
+    display: flex;
+    padding: 10%;
+}
